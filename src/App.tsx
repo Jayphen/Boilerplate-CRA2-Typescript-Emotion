@@ -6,9 +6,13 @@ import Wow from "./Hello";
 import logo from "./logo.svg";
 
 const Emo = styled.div`
+  background: pink;
   color: pink;
-  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   margin-top: 1rem;
+  padding: 1rem;
+  border: 3px solid #d26ac2;
+  border-radius: 3px;
 `;
 
 class App extends Component {
@@ -20,7 +24,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
           </p>
-          <Wow msg="Typescript yay" />
+          <Wow msg="Includes Typescript" />
           <Emo>also react-emotion</Emo>
         </header>
       </div>
