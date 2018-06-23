@@ -32,6 +32,10 @@
     "@types/react-dom": "^16.0.6",
     "react-app-rewire-emotion": "^4.0.0",
     "react-app-rewire-typescript-babel-preset": "^2.3.0",
-    "react-app-rewired": "^1.5.2"
+    "react-app-rewired": "^1.5.2",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.2"
   }
 }

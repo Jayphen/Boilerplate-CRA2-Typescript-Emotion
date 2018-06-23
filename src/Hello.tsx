@@ -1,9 +1,9 @@
 import React from "react";
 
-type WowProps = {
+interface IWowProps {
   msg: string;
-};
+}
 
-const Wow: React.SFC<WowProps> = ({ msg }) => <div>{msg}</div>;
+const Wow: React.SFC<IWowProps> = ({ msg }) => <div>{msg}</div>;
 
 export default Wow;

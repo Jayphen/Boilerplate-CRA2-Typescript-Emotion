@@ -5,7 +5,7 @@ import Wow from "./Hello";
 import logo from "./logo.svg";
 
 class App extends Component {
-  render() {
+  public render() {
     return (
       <div className="App">
         <header className="App-header">
