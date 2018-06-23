@@ -36,7 +36,7 @@
     "babel-plugin-emotion": "^9.2.4",
     "react-app-rewire-emotion": "^4.0.0",
     "react-app-rewire-typescript-babel-preset": "^2.3.0",
-    "react-app-rewired": "^1.5.2",
+    "react-app-rewired": "^2.0.0",
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
     "tslint-eslint-rules": "^5.3.1",

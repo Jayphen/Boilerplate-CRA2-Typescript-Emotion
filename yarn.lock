@@ -7217,9 +7217,9 @@ react-app-rewire-typescript-babel-preset@^2.3.0:
   dependencies:
     tslint-loader "^3.6.0"
 
-react-app-rewired@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-1.5.2.tgz#0f5cdbc92f47f166bb0bcadf8a5d00999b90f68f"
+react-app-rewired@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-2.0.0.tgz#1b418e4a1db30a108c9bb00ab0260f45e9a2297e"
   dependencies:
     cross-spawn "^5.1.0"
     dotenv "^4.0.0"

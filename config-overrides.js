@@ -7,7 +7,6 @@ const { rewireEmotion } = require("react-app-rewire-emotion");
 
 module.exports = {
   webpack: function(config, env) {
-    console.log(env);
     config = rewireTypescript(config);
     config = rewireTSLint(config /* {} - optional tslint-loader options */);
     if (env === "production" || env === "test") {
