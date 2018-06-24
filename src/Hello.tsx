@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "react-emotion";
 
-const Div = styled.div`
+const Wow = styled.div`
   color: #007acc;
   background: white;
   padding: 1rem;
@@ -11,6 +11,6 @@ interface IWowProps {
   msg: string;
 }
 
-const Wow: React.SFC<IWowProps> = ({ msg }) => <Div>{msg}</Div>;
+const Hello: React.SFC<IWowProps> = ({ msg }) => <Wow>{msg}</Wow>;
 
-export default Wow;
+export default Hello;
