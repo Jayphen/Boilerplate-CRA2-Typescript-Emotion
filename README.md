@@ -1,8 +1,8 @@
 The alpha version of create-react-app supports Webpack 4 and Babel 7, along with plenty of other nice features, which you can [read about here](https://github.com/facebook/create-react-app/issues/3815)
 
-This boilerplate uses [react-app-rewired](https://github.com/timarney/react-app-rewired)@next in order to add Typescript, TSLint, and Emotion support without ejecting.
+This demonstrative boilerplate uses [react-app-rewired](https://github.com/timarney/react-app-rewired)@next in order to add Typescript, TSLint, and Emotion support without ejecting.
 
-Note that this isn't intended for production use, but rather as a demonstration of how one could use CRA2 with Typescript.
+Note that this isn't intended for production use, but rather as a demonstration of how one could use CRA2 with Typescript. Please follow the [create-scripts 2 roadmap thread](https://github.com/facebook/create-react-app/issues/3815) for further information.
 
 -------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
