@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styled from "react-emotion";
 import "./App.globalCSS";
 import Wow from "./Hello";
-// @ts-ignore I dunno why TS doesn't like the logo
 import { ReactComponent as Logo } from "./logo.svg";
 
 const Emo = styled.div`
