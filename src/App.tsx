@@ -3,7 +3,7 @@ import styled from "react-emotion";
 import "./App.globalCSS";
 import Wow from "./Hello";
 // @ts-ignore I dunno why TS doesn't like the logo
-import logo from "./logo.svg";
+import { ReactComponent as Logo } from "./logo.svg";
 
 const Emo = styled.div`
   background: pink;
@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <Logo className="App-logo" />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
           </p>
